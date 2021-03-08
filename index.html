@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header section">
+                <div class="yellow-column column">
+                    <div class="wrapper">
+                    <div class="avatar-box"><img src="img/1-136.jpg" alt="avatar" class="avatar"></div>
+                </div>
+                </div>
+                <div class="gray-column column">
+                    <div class="wrapper">
+                    <h1 class="title">Katerina Datsenka</h1>
+                    <h3 class="subtitle">web developer</h3>
+                    <p class="about">I'm a building engineer, but once realized that it’s not really mine. In my work I want more freedom and creativity. I know it’s difficult but I’m going to do my best to become a great front-end developer. </p>
+                    <p class="about">I like to learn new things, new programs, more advanced methods. This is what the web interested me in, everything is constantly updated here, and you have to keep up with it. I try and I will try to become a good specialist!</p>
+                </div>
+                </div>
+        </header>
+
+        <section class="section">
+            <div class="yellow-column column">
+                <div class="wrapper">
+                <h2 class="parametr parametr__yellow">
+                    contact
+                </h2>
+                <ul class="contacts-list">
+                       <li class="contacts_item"><a class="contacts_link" href="tel:+375296620933">+ 375 29 662 09 33</a></li> 
+                       <li class="contacts_item"> <a class="contacts_link" href="mailto:katrindocik@gmail.com">katrindocik@gmail.com</a> </li>
+                       <li class="contacts_item"><a class="contacts_link" href="https://vk.com/melakatrin">vkontakte</a> </li>
+                       <li class="contacts_item"> <a class="contacts_link" href="https://t.me/melakatherine">telegram</a> </li>                        
+                </ul>
+            </div>
+            </div>
+            <div class="gray-column column">
+                <h2 class="parametr parametr__gray">
+                    work experience
+                </h2>
+                <div class="wrapper">
+                <div class="work-block">
+                    <h3 class="work-block__title">Engineer</h3>
+                    <p class="work-block__year">2017-2020</p>
+                    <p class="work-block__descr">Organization of construction production, executive documentation, quality control, laboratory tests</p>
+                </div>
+                <div class="work-block">
+                    <h3 class="work-block__title">Information technology specialist</h3>
+                    <p class="work-block__year">2020-2021</p>
+                    <p class="work-block__descr">Working with websites, hosting services, WordPress, content filling</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="section education">
+            <div class="yellow-column">
+                <div class="wrapper">
+                <h2 class="parametr parametr__yellow">
+                    education
+                </h2>
+                <ul class="education-list">
+                    <li class="education_item">Belarusian State university of Transport</li> 
+                    <li class="education_item">HTML, CSS, basic JS courses</li>
+                    <li class="education_item">RS School 2021</li>      
+                </ul>
+            </div>
+            </div>
+            <div class="gray-column">
+                <h2 class="parametr parametr__gray">
+                    Code examples
+                </h2>
+                <div class="wrapper">
+                <div class="code-block">
+                    <code>function getSeason(date) {
+                        let season = ['winter', 'spring', 'summer', 'autumn'];<br>
+                              
+                        if(!date) {return 'Unable to determine the time of year!';}<br>
+                        if (Object.prototype.toString.call(date) !== '[object Date]') {<br>
+                            throw new Error();<br>
+                          } else {<br>
+                          let month = date.getMonth();<br>
+                          if(month === 11 || month === 0 || month === 1) return season[0];<br>
+                          else if (month > 1 &amp;&amp; month &lt; 5) return season[1];<br>
+                          else if (month > 4 &amp;&amp; month &lt; 8) return season[2];<br>
+                          else if (month > 7 &amp;&amp; month &lt; 11) return season[3];<br>
+                      
+                        }};</code>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="section skills">
+            <div class="yellow-column">
+                <div class="wrapper">
+                <h2 class="parametr parametr__yellow">
+                    skills
+                </h2>
+                <ul class="skills-list">
+                       <li class="skills_item">HTML, CSS, basic JS</li> 
+                       <li class="skills_item">Gulp</li>
+                       <li class="skills_item">basic GIT</li>  
+                       <li class="skills_item">Figma</li>
+                       <li class="skills_item">English B1, Czech B1</li>    
+                </ul>
+            </div>
+            </div>
+            <div class="gray-column">
+                <h2 class="parametr parametr__gray">
+                    Personal qualities
+                </h2>
+                <div class="wrapper">
+                    <ul class="qualities-list">
+                       <li class="qualities_item"> Ability to quickly learn new things</li> 
+                       <li class="qualities_item">Analytic skills</li>
+                       <li class="qualities_item">Initiative</li>  
+                       <li class="qualities_item">Dependable</li>  
+                </ul>
+                   
+                </div>
+            </div>
+        </section>
+    </main>   
+    <footer class="footer main">
+        <div class="wrapper">
+            <div class="footer-content">
+                <a href="https://rs.school/js/" class="rss-link">
+                    <img src="img/logo-rsschool3.png" alt="Rolling Scopes School Logo" class="rss">
+                </a>
+                <a href="https://github.com/MelaKatherin" class="git-link">
+                    <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="github" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0138.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path></svg>
+                </a>
+                <p class="year">2021</p>
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
