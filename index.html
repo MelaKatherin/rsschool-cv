@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
     <title>CV Katerina Datsenka</title>
 </head>
 <body>
@@ -11,9 +13,9 @@
         <div class="columns">
             <div class="left-column">
                 <header class="header">
-                    <img src="" alt="portrait" class="foto">
-                    <h1></h1>
-                    <h2></h2>
+                    <img src="img/1-136.jpg" alt="portrait" class="main-foto" width="225px" height="200px">
+                    <h1>Katerina Datsenka</h1>
+                    <h2>Junior Frontend Developer</h2>
                 </header>
                 <main class="main">
                     <section class="contacts">
@@ -63,9 +65,69 @@
                     </section>
                 </main>
             </div>
-            <div class="right-column"></div>
-        </div>
+            <div class="right-column">
+                <section class="about">
+                    <div class="section-header">
+                      <img src="./icons/myself.svg" alt="About Myself Icon" width="30" height="30">
+                      <h3>About Myself</h3>
+                    </div>
+                    <p>I'm a building engineer, but once realized that it’s not really mine. In my work I want more freedom and creativity. I know it’s difficult but I’m going to do my best to become a great front-end developer.</p>
+                    <p>Three years ago I’ve become passionate about retouching. I’ve mastered different retouching techniques,
+                      learned to work with graphic tablet, become an advanced Photoshop user and found my first job as a
+                      retoucher.</p>
+                    <p>I like to learn new things, new programs, more advanced methods. This is what the web interested me in, everything is constantly updated here, and you have to keep up with it. I try and I will try to become a good specialist!</p>
+                  </section>
+                  <section class="education">
+                    <div class="section-header">
+                      <img src="./icons/education.svg" alt="Education Icon" width="30" height="30">
+                      <h3>Education</h3>
+                    </div>
+                    <p><strong>Belarusian State University of transport</strong></p>
+                    <p>Industrial and civil engineering faculty</p>
+                    <p>Years: 2012 - 2017</p>
+                    <p>Specialization: Civil engineer, Bachelor's degree</p>
+                  </section>
+                  <section class="courses">
+                    <div class="section-header">
+                      <img src="./icons/courses.svg" alt="Courses" width="30" height="30">
+                      <h3>Courses</h3>
+                    </div>
+                    <ul>
+                      <li>HTML and CSS Tutorials on the "HTML academy", "Geekbrains"</li>
+                      <li>Java Script (Dmitryj Lavrik)</li>
+                      <li>RS Schools «JavaScript/Front-end.»</li>
+                    </ul>
+                    <img class="score-img" src="./images/w3schools-score_small.jpg" alt="W3schools Score" width="500">
+                  </section>
+                  <section class="code-example">
+                    <div class="section-headerr">
+                      <img src="./icons/code.svg" alt="Code Icon" width="30" height="30">
+                      <h3>Code example</h3>
+                    </div>
+                    <pre>
+                    <code>
+                        const fizzbuzz = (n)=> 
+                        Array.from({length: n}, (_,i)=> i+1)
+                          .map( el=> el % 3 === 0  && el % 5 === 0 ? 'FizzBuzz' : 
+                                el % 3 === 0 ? 'Fizz' : el % 5 === 0 ? 'Buzz' : el )
+                    </code>
+                    </pre>
+                  </section>
+              </div>
+            </div>
+      
+        <footer class="footer">
+            <a class="github" href="https://github.com/MelaKatherin">
+              <img class="github-icon" src="./icons/github.svg" alt="Github Icon" width="26" height="26">
+              <p>Visit my GitHub</p>
+            </a>
+            <p>© 2021</p>
+            <a href="https://rs.school/js/">
+              <img src="./icons/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+            </a>
+          </footer>
     </div>
+</div>
     
 </body>
 </html>
