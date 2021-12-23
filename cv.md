@@ -23,10 +23,10 @@ const fizzbuzz = (n)=>
 
 ### **Education and courses:**
 
-* Belarus State University of transport ( civil engineer)
+* Belarusian State University of transport ( civil engineer)
 * HTML and CSS Tutorials on the "HTML academy", "Geekbrains"
 * Java Script (Dmitryj Lavrik)
-* RS Schools Course «JavaScript/Front-end. Stage 0»
+* RS Schools Course «JavaScript/Front-end.»
 
 ### **Languages:**
 * English - Intermediate (passive)

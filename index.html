@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CV Katerina Datsenka</title>
+</head>
+<body>
+    <div class="container">
+        <div class="columns">
+            <div class="left-column">
+                <header class="header">
+                    <img src="img/1-136.jpg" alt="portrait" class="main-foto" width="225px" height="200px">
+                    <h1>Katerina Datsenka</h1>
+                    <h2>Junior Frontend Developer</h2>
+                </header>
+                <main class="main">
+                    <section class="contacts">
+                        <h3>Contacts</h3>
+                            <ul class="contacts_list">
+                                <li class="contacts_list-item">
+                                    <img src="./img/phone.svg" alt="Phone Icon" width="30" height="30">
+                                    <p><a href="tel:420721513401">+420721513401</a></p>
+                                </li>
+                                <li class="contacts_list-item">
+                                    <img src="./img/mail.svg" alt="Email Icon" width="30" height="30">
+                                    <p><a href="mailto:katrindocik@gmail.com">katrindocik@gmail.com</a></p>
+                                </li>
+                                <li class="contacts_list-item">
+                                    <img src="./img/telegram.svg" alt="Telegram Icon" width="30" height="30">
+                                    <p>@melakatherine</p>
+                                </li>
+                            </ul>
+                    </section>
+                    <section class="skills">
+                        <h3>Skills</h3>
+                        <ul class="skills_list">
+                          <li>HTML5, CSS3</li>
+                          <li>JavaScript Basics</li>
+                          <li>Git, GitHub</li>
+                          <li>VS Code</li>
+                          <li>Gulp</li>
+                          <li>Figma</li>
+                        </ul>
+                    </section>
+                    <section class="languages">
+                        <h3>Languages</h3>
+                        <ul class="languages_list">
+                            <li class="languages_list-item">
+                                <p class="language-name">English</p>
+                                <p>Intermediate</p>
+                            </li>
+                            <li  class="languages_list-item">
+                                <p class="language-name">Russian</p>
+                                <p>Native</p>
+                            </li>
+                            <li  class="languages_list-item">
+                                <p class="language-name">Czech</p>
+                                <p>Upper-Intermediate</p>
+                            </li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+            <div class="right-column">
+                <section class="about">
+                    <div class="section-header">
+                      <img src="./img/user.svg" alt="About Myself Icon" width="30" height="30">
+                      <h3>About Myself</h3>
+                    </div>
+                    <p>I'm a building engineer, but once realized that it’s not really mine. In my work I want more freedom and creativity. I know it’s difficult but I’m going to do my best to become a great front-end developer.</p>
+                    <p>Three years ago I’ve become passionate about retouching. I’ve mastered different retouching techniques,
+                      learned to work with graphic tablet, become an advanced Photoshop user and found my first job as a
+                      retoucher.</p>
+                    <p>I like to learn new things, new programs, more advanced methods. This is what the web interested me in, everything is constantly updated here, and you have to keep up with it. I try and I will try to become a good specialist!</p>
+                  </section>
+                  <section class="education">
+                    <div class="section-header">
+                      <img src="./img/library.svg" alt="Education Icon" width="30" height="30">
+                      <h3>Education</h3>
+                    </div>
+                    <p><strong>Belarusian State University of transport</strong></p>
+                    <p><em>Industrial and civil engineering faculty</em></p>
+                    <p><em>Years:</em> 2012 - 2017 </p>
+                    <p><em> Specialization:</em> Civil engineer, Bachelor's degree</p>
+                  </section>
+                  <section class="courses">
+                    <div class="section-header">
+                      <img src="./img/book.svg" alt="Courses" width="30" height="30">
+                      <h3>Courses</h3>
+                    </div>
+                    <ul class="courses-list">
+                      <li class="courses-list_item">HTML and CSS Tutorials on the "HTML academy", "Geekbrains"</li>
+                      <li class="courses-list_item" >Java Script (Dmitryj Lavrik)</li>
+                      <li class="courses-list_item">RS Schools «JavaScript/Front-end.»</li>
+                    </ul>
+        
+                  </section>
+                  <section class="code-example">
+                    <div class="section-headerr">
+                      <h3>Code example</h3>
+                    </div>
+                    <pre>
+                    <code>
+const fizzbuzz = (n)=> 
+Array.from({length: n}, (_,i)=> i+1)
+.map( el=> el % 3 === 0  && el % 5 === 0 ? 'FizzBuzz' : 
+el % 3 === 0 ? 'Fizz' : el % 5 === 0 ? 'Buzz' : el )
+                    </code>
+                    </pre>
+                  </section>
+              </div>
+            </div>
+      
+        <footer class="footer">
+            <a class="github" href="https://github.com/MelaKatherin">
+              <img class="github-icon" src="./img/github.svg" alt="Github Icon" width="26" height="26">
+            </a>
+            <p>© 2021</p>
+            <a href="https://rs.school/js/">
+              <img src="./img/rsschool.png" alt="Rsschool" width="73" height="26">
+            </a>
+          </footer>
+    </div>
+</div>
+    
+</body>
+</html>
